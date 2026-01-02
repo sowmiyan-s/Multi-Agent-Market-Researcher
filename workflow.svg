@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
-  <!-- Solid Background -->
-  <rect width="100%" height="100%" fill="#ffffff"/>
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="300" fill="#ffffff" stroke="#eeeeee" stroke-width="1"/>
   
-  <!-- Boxes with solid colors -->
-  <rect x="40" y="110" width="120" height="80" fill="#f4f4f4" stroke="#333333" stroke-width="2"/>
-  <text x="100" y="155" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333333">User Input</text>
+  <rect x="40" y="110" width="120" height="80" rx="5" fill="#f4f4f4" stroke="#333333" stroke-width="2"/>
+  <text x="100" y="155" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333333">User Input</text>
   
-  <rect x="220" y="90" width="160" height="120" fill="#e3f2fd" stroke="#1e88e5" stroke-width="2"/>
-  <text x="300" y="145" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#0d47a1">CrewAI</text>
-  <text x="300" y="170" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0d47a1">Orchestrator</text>
+  <rect x="220" y="90" width="160" height="120" rx="5" fill="#e3f2fd" stroke="#1e88e5" stroke-width="2"/>
+  <text x="300" y="145" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#0d47a1">CrewAI</text>
+  <text x="300" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#0d47a1">Orchestrator</text>
   
-  <!-- Agents -->
-  <rect x="430" y="30" width="150" height="70" fill="#fff9c4" stroke="#fbc02d" stroke-width="2"/>
-  <text x="505" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#f57f17">Financial Analyst</text>
+  <rect x="430" y="30" width="150" height="70" rx="5" fill="#fff9c4" stroke="#fbc02d" stroke-width="2"/>
+  <text x="505" y="70" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#f57f17">Financial Analyst</text>
   
-  <rect x="430" y="200" width="150" height="70" fill="#e8f5e9" stroke="#43a047" stroke-width="2"/>
-  <text x="505" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b5e20">Market Analyst</text>
+  <rect x="430" y="200" width="150" height="70" rx="5" fill="#e8f5e9" stroke="#43a047" stroke-width="2"/>
+  <text x="505" y="240" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b5e20">Market Analyst</text>
   
-  <rect x="630" y="110" width="130" height="80" fill="#ffe0b2" stroke="#f4511e" stroke-width="2"/>
-  <text x="695" y="155" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#bf360c">Final Report</text>
+  <rect x="630" y="110" width="130" height="80" rx="5" fill="#ffe0b2" stroke="#f4511e" stroke-width="2"/>
+  <text x="695" y="155" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#bf360c">Final Report</text>
   
-  <!-- Connectors -->
   <line x1="160" y1="150" x2="220" y2="150" stroke="#666666" stroke-width="2"/>
   <line x1="380" y1="150" x2="430" y2="65" stroke="#666666" stroke-width="2"/>
   <line x1="380" y1="150" x2="430" y2="235" stroke="#666666" stroke-width="2"/>

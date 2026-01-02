@@ -1,6 +1,6 @@
 # Multi-Agent Market Researcher
 
-![System Workflow](https://raw.githubusercontent.com/sowmiyan-s/Multi-Agent-Market-Researcher/master/workflow.svg)
+![System Workflow](workflow.svg)
 
 A sophisticated financial and market research system powered by **Mistral AI** and **CrewAI**.
 
@@ -23,7 +23,7 @@ The **Multi-Agent Market Researcher** automates the complex process of gathering
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/Multi-Agent-Market-Researcher.git
+    git clone https://github.com/sowmiyan-s/Multi-Agent-Market-Researcher.git
     cd Multi-Agent-Market-Researcher
     ```
 
