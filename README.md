@@ -1,6 +1,6 @@
 # Multi-Agent Market Researcher
 
-![System Workflow](workflow.svg)
+![System Workflow](https://raw.githubusercontent.com/sowmiyan-s/Multi-Agent-Market-Researcher/master/workflow.svg)
 
 A sophisticated financial and market research system powered by **Mistral AI** and **CrewAI**.
 
