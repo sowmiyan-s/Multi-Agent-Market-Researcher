@@ -83,7 +83,6 @@ if submitted and company:
             final_output = str(result)
             
             status.update(label="Analysis Complete", state="complete", expanded=False)
-            log_expander.update(expanded=False)
         except Exception as e:
             status.update(label="Error Occurred", state="error")
             st.error(f"Error: {e}")
