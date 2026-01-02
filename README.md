@@ -1,6 +1,6 @@
 # Multi-Agent Market Researcher
 
-![System Workflow](./workflow.svg)
+<img src="./workflow.svg" width="800" alt="System Workflow">
 
 A sophisticated financial and market research system powered by **Mistral AI** and **CrewAI**.
 
