@@ -1,6 +1,8 @@
 # Multi-Agent Market Researcher
 
-A sophisticated financial and market research system powered by **Mistral AI** and **CrewAI**. This application deploys a team of specialized AI agents to perform deep-dive analysis on any company using real-time search capabilities.
+![System Workflow](./workflow.svg)
+
+A sophisticated financial and market research system powered by **Mistral AI** and **CrewAI**.
 
 ## 🚀 Overview
 
