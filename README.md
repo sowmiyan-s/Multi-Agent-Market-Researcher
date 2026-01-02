@@ -1,55 +1,67 @@
-# Multi Agent Market Researcher
+# Multi-Agent Market Researcher
 
-## Description
+A sophisticated financial and market research system powered by **Mistral AI** and **CrewAI**. This application deploys a team of specialized AI agents to perform deep-dive analysis on any company using real-time search capabilities.
 
-The objective of this application is to assist users in performing comprehensive financial and market analyses of any company using publicly available information from the internet. The application employs multiple AI agents, each specialized in different aspects of financial and market research, to gather, analyze, and compile data into a cohesive and informative report. This tool enhances the user's ability to make informed decisions based on detailed and factual analysis. Key technologies used in this project include CrewAI, Langchain, Streamlit, Python and Mistral Large 2 LLM.
+## 🚀 Overview
 
+The **Multi-Agent Market Researcher** automates the complex process of gathering financial data and market trends. It leverages a sequential process where:
+1.  **Financial Analyst**: Researches stock performance, key ratios, and earnings data.
+2.  **Market Research Analyst**: Analyzes competitive landscapes and industry trends.
+3.  **Reporting Analyst**: Synthesizes all findings into a professional, structured report.
 
-## Installation
+## 🛠️ Technology Stack
 
-To run this project, follow these steps:
+*   **LLM**: Mistral AI (Medium/Large models)
+*   **Orchestration**: CrewAI
+*   **Search**: Serper.dev (Google Search API)
+*   **UI**: Streamlit
+*   **Framework**: LangChain
 
-1. Clone this repository to your local machine.
-   ```bash
-   git clone https://github.com/SubashSK777/Multi-Agent-Market-Researcher
-   ```
+## 📥 Installation
 
-2. Navigate to the project directory.
-   ```bash
-   cd Multi-Agent-Market-Researcher
-   ```
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/Multi-Agent-Market-Researcher.git
+    cd Multi-Agent-Market-Researcher
+    ```
 
-3. Install the required dependencies.
-   ```bash
-   pip install -r requirements.txt
-   ```
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-## Usage
+3.  **Configure Environment Variables**
+    Create a `.env` file in the root directory and add your API keys:
+    ```env
+    MISTRAL_API_KEY=your_mistral_api_key
+    SERPER_API_KEY=your_serper_api_key
+    ```
 
-1. Ensure you have installed all dependencies as instructed above.
+## 🎮 Usage
 
-2. Run the Streamlit app.
-   ```bash
-   streamlit run app.py
-   ```
+1.  **Start the Application**
+    ```bash
+    streamlit run app.py
+    ```
 
-3. Access the app through your browser at http://localhost:8501
+2.  **Generate a Report**
+    *   Enter the name of any company (e.g., "NVIDIA").
+    *   Monitor the **Agent Reasoning Logs** to see the "thought process" of each agent.
+    *   Download the final plain-text report once the analysis is complete.
 
-4. Create a .env file consisting of "MISTRAL_API_KEY" and "SERPER_API_KEY"
-   
-5. Type the name of the company and watch the report being created
+## 📋 Features
 
+*   **Log Isolation**: Technical agent logs are separated from the final report for a clean reading experience.
+*   **Search Integration**: Agents use the Serper tool to fetch real-world, real-time data.
+*   **Minimalist Interface**: A distraction-free, professional UI focused solely on result generation.
+*   **Downloadable Reports**: Export your strategic analysis in one click.
 
-## Credits
+## 🤝 Credits
 
-- [CrewAI](https://www.crewai.com/)
-- [Langchain](https://www.langchain.com/)
-- [Mistral AI](https://mistral.ai/)
-- [Streamlit](https://streamlit.io/)
-- [SerperAPI](https://serper.dev/)
-- [Python](https://www.python.org/)
+*   [CrewAI](https://www.crewai.com/) - Multi-agent orchestration.
+*   [Mistral AI](https://mistral.ai/) - Powerful open-weights LLMs.
+*   [Serper.dev](https://serper.dev/) - Fast Google Search API.
 
-## License
+## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
-```
+This project is licensed under the MIT License.
