@@ -31,10 +31,15 @@ The **Multi-Agent Market Researcher** automates the complex process of gathering
     ```
 
 3.  **Configure Environment Variables**
-    Create a `.env` file in the root directory and add your API keys:
+    You need two API keys to run this system. Create a file named `.env` in the root of the project:
+    
+    *   **MISTRAL_API_KEY**: Get it from the [Mistral AI Console](https://console.mistral.ai/).
+    *   **SERPER_API_KEY**: Get it from [Serper.dev](https://serper.dev/) (provides 2,500 free Google searches).
+
+    **Your `.env` file should look like this:**
     ```env
-    MISTRAL_API_KEY=your_mistral_api_key
-    SERPER_API_KEY=your_serper_api_key
+    MISTRAL_API_KEY=your_actual_key_here
+    SERPER_API_KEY=your_actual_key_here
     ```
 
 ## 🎮 Usage
